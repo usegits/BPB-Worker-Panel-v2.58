@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = 'f599fb6d-f6ca-4ba9-9e8c-3e767f5447aa';
 
 // https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/
 const proxyIPs= ['bpb.yousef.isegaro.com'];
@@ -274,6 +274,48 @@ export default {
                         });
 
                     default:
+
+                        //Add
+                        const html = `<!DOCTYPE html>
+                        <style>
+                            .center-absolute {
+                              display: grid;
+                              place-items: center;
+                            }
+                            img {
+                              width: 100%;
+                              height: auto;
+                            }
+                          // .center-absolute {
+                          //   position: absolute;
+                          //   top: 50%;
+                          //   left: 50%;
+                          //   transform: translate(-50%, -50%);
+                        
+                          //   margin-left: auto;
+                          //   margin-right: auto;
+                          //   width: 50%;
+                          //   text-align: center;
+                          //   display: flex;
+                          //   justify-content: center;
+                          //   align-items: center;
+                          // }
+                        </style>
+                            <body>
+                              <div class="center-absolute">
+                              <h1>Hello World</h1>
+                                <p class="center-absolute">
+                <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103120375.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122116.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122258.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122549.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122785.jpg" class="swiper-lazy">
+                </p>
+                              </div>
+                              </body>`;
+                        return new Response(html, {
+                        headers: {
+                            "content-type": "text/html;charset=UTF-8",
+                        },
+                        }); 
+                        //end exit
+                        return new Response(JSON.stringify(request.cf), { status: 200 });
                         // return new Response('Not found', { status: 404 });
                         url.hostname = 'www.speedtest.net';
                         url.protocol = 'https:';
