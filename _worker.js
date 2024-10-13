@@ -305,7 +305,11 @@ export default {
                               <div class="center-absolute">
                               <h1>Hello World</h1>
                                 <p class="center-absolute">
-                <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103120375.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122116.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122258.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122549.jpg" class="swiper-lazy">    <img src="http://dounimei.us/wp-content/uploads/2021/06/2021062103122785.jpg" class="swiper-lazy">
+                <img src="https://pic.netbian.com/uploads/allimg/241011/091115-1728609075d30d.jpg" class="swiper-lazy">    
+                <img src="https://pic.netbian.com/uploads/allimg/241009/002252-1728404572f8bc.jpg" class="swiper-lazy">    
+                <img src="https://pic.netbian.com/uploads/allimg/240909/160305-1725868985c432.jpg" class="swiper-lazy">    
+                <img src="https://pic.netbian.com/uploads/allimg/240909/163154-17258707146540.jpg" class="swiper-lazy">    
+                <img src="https://pic.netbian.com/uploads/allimg/241008/210943-1728392983334f.jpg" class="swiper-lazy">
                 </p>
                               </div>
                               </body>`;
